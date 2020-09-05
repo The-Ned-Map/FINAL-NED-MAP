@@ -1,0 +1,721 @@
+{
+	"mapwidth": "500",
+	"mapheight": "500",
+	"defaultstyle": "light",
+	"styles": [
+		{
+			"class": "light",
+			"hover": { "fill": "#f4f4f4" },
+			"active": { "fill": "#fff" }
+		},
+		{
+			"class": "dark",
+			"hover": { "fill": "#666" },
+			"active": { "fill": "#555" }
+		}
+	],
+	"categories": [
+		{
+			"id": "department",
+			"title": "DEPARTMENTS",
+			"about": "",
+			"color": "#FF9595"
+		},
+		{
+			"id": "m",
+			"title": "MASJID",
+			"about": "",
+			"color": "#FFB985"
+		},
+		{
+			"id": "facilitation centre",
+			"title": "FACILITATION CENTRE",
+			"about": "",
+			
+			"color": "#A5C882"
+		},
+        	{
+			"id": "DEAN",
+			"title": "DEAN OFFICES",
+			"about": "",
+			
+			"color": "#A5C882"
+		},
+        {
+            "id": "auditorium",
+			"title": "AUDITORIUM",
+			"about": "",
+			"color": "#A5C882"
+        },
+         {
+            "id": "LABS",
+			"title": "LABS",
+			"about": "",
+			"color": "#A5C882"
+        },
+        {
+            "id": "BANKS",
+			"title": "BANKS",
+			"about": "",
+			"color": "#A5C882"
+        },
+         {
+            "id": "FOOD",
+			"title": "CANTEEN / FOOD CENTRE",
+			"about": "",
+			"color": "#A5C882"
+        },
+         {
+            "id": "Stationary store",
+			"title": "STATIONARY STORE",
+			"about": "",
+			"color": "#A5C882"
+        },
+        
+         {
+            "id": "Shuttle services",
+			"title": "SHUTTLE SERVICES",
+			"about": "",
+			"color": "#A5C882"
+        },
+         {
+            "id": "LIBRARY",
+			"title": "LIBRARY",
+			"about": "",
+			"color": "#A5C882"
+        },
+        {
+            "id": "others",
+			"title": "OTHERS",
+			"about": "",
+			"color": "#A5C882"
+        },
+		{
+			"id": "sport",
+			"title": "SPORTS",
+			"about": "",
+			"color": "#8DB3DC",
+			"style": "dark"
+		},
+		
+		{
+			"id": "nopointer-logos",
+			"title": "Logos",
+			"toggle": "true",
+			"legend": "true",
+			"hide": "true"
+		}
+	],
+	"levels": [
+		{
+			"id": "NEDUNIVERSITY",
+			"title": "NEDUNIVERSITY",
+			"map": "Finalnedmp.svg",
+			"minimap": "",
+			"locations": [
+				{
+					"id": "visitorgate",
+					"title": "VISITOR GATE",
+					"about": "",
+                    "pin": "circle",
+					"description": "NED University of Engineering & Technology University Road, Karachi - 75270, Pakistan Telephone : (92-21) 99261261-8 Fax : (92-21) 99261255 Email : registrar@neduet.edu.pk", 
+					"category": "others",
+                    
+                    "link": "",
+                    "image": "visitorgate.jpg",
+
+					"x": "0.9345",
+					"y": "0.9081"
+				},
+				{
+					"id": "Stationary store",
+					"title": "SFC STATIONARY STORE",
+					"about": "",
+					"description": "It is one of the best stationary store in the university. In this store student can copy their documents, print out their reports, binding their project and take all kind of stationary from there.",
+                    "pin": "circle",
+					"category": "food",
+                    "image": "SFC.jpg",
+					"style": "dark",
+					"x": "0.7285",
+					"y": "0.9676"
+				},
+                {
+					"id": "nedsoftware",
+					"title": "",
+					"about": "",
+                    "pin": "circle",
+					"description": "NED University of Engineering & Technology University Road, Karachi - 75270, Pakistan Telephone : (92-21) 99261261-8 Fax : (92-21) 99261255 Email : registrar@neduet.edu.pk", 
+					"category": "others",
+                    
+                    "link": "",
+                    "image": "visitorgate.jpg",
+
+					"x": "0.9345",
+					"y": "0.9081"
+				},
+            
+                {
+					"id": "software",
+					"title": "SOFTWARE ENGINEERING DEPARTMENT",
+					"about": "",
+					"description": "The department of Software Engineering, NED University, takes pride in being one of the highest-ranking departments of the university. We aim to provide quality education and various areas of research, all while providing in-depth learning of not only tools and techniques for advancements. Our graduates are well perceived and sought after by the industry where they have been successful in securing suitable positions.",
+                    "link":"https://se.neduet.edu.pk/",
+					"image":"software.jpg",
+					"pin": "circle",
+					"category":"department",
+					"x": "0.7113",
+					"y": "0.6186"
+				},
+                {
+					"id": "civil",
+					"title": "CIVIL ENGINEERING DEPARTMENT",
+					"about": "",
+					"description": "The Department of Civil Engineering is the oldest engineering department of Pakistan which since 1922 has been actively contributing in transforming academia and developing educational infrastructure. At undergraduate level it offers a competitive four-year degree programme based on a comprehensive curriculum. In 1979, Department started its Postgraduate programme leading to Masters in Civil Engineering",
+					"link":" https://ced.neduet.edu.pk/",
+					"pin": "circle",
+					"image":"Civil.jpg",
+					"category":"department",
+					"x": "0.6446",
+					"y": "0.6229"
+				},
+                {
+					"id": "cis",
+					"title": "COMPUTER SYSTEM ENGINEERING DEPARTMENT",
+					"about": "",
+					"description": "Later in 1986, the Department of Electrical Engineering was designated as Department of Electrical and Computer Systems Engineering. The Department of Electrical and Computer Systems Engineering was bifurcated in 1997 and a separate Department of Computer Systems Engineering was created. Later in 2001 it was renamed as Department of Computer and Information Systems Engineering (CIS) to cover programs related to Information Systems as well.",
+                    "link":" https://cis.neduet.edu.pk/",
+					"image":"CIS.jpg",
+					"category":"department",
+					"x": "0.3048",
+					"y": "0.6066"
+				},
+				{
+					"id":"",
+					"title":"Electrical Engineering department",
+					"about":"",
+					"description":"The Department of Electrical Engineering is rich both in its history as well as in what it currently has in offers. The undergraduate programme in Electrical Engineering may be traced back to 1934 when the former NED Engineering College introduced a three year Bachelor of Engineering degree course. A full four year Bachelor of Engineering (Electrical) degree programme was introduced in 1961.",
+					"link":"https://eed.neduet.edu.pk/",
+					"image":"electrical.jpg",
+					"category":"department",
+					"x":"0.4270",
+					"y":"0.7510"
+
+				},
+				{
+					"id":"electronics",
+					"title":"Electronics engineering department",
+					"about":"",
+					"description":"The Department of Electronic Engineering, established in 1998, is currently administering two major Engineering streams namely Electronic Engineering and Telecommunication Engineering. The department has well-established infrastructure and facilities to satisfy students’ needs in these areas. The undergraduate programmes in Electronic and Telecommunication Engineering are accredited by Pakistan Engineering Council.",
+					"link":"https://eld.neduet.edu.pk/ ",
+					"image":"Electronics.jpg",
+					"category":"department",
+					"x":"0.4270",
+					"y":"0.7510"
+					
+				},
+				{
+					"id":"IMD",
+					"title":"Industrial and manufacturing engineering department",
+					"about":"",
+					"description":"Industrial and Manufacturing Engineering education has become pivotal in establishing a competitive posture across the entire spectrum of Metal working and Manufactured parts’ industry in Pakistan. This Department was initially started under the auspices of Mechanical Engineering Department in October 1999 and started as a separate Department in October 2000 with the name of Industrial & Manufacturing Engineering Department.",
+					"link":"https://imd.neduet.edu.pk/",
+					"image":"IMD.jpg",
+					"category":"departmnet",
+					"x":"0.1946",
+					"y":"0.6158"
+					
+				},
+				{
+					"id":"urban",
+					"title":"Urban engineering department",
+					"about":"",
+					"description":"Urban Engineers provide physical definition of the urban habitat, by planning, designing, building/constructing, operating and maintaining the infrastructure including buildings and roads. This infrastructure, on one hand, facilitates the social and economic interactions within the urban habitat through ubiquitous transportation and communication systems",
+					"link":"https://ued.neduet.edu.pk/ ",
+					"image":"Urban.jpg",
+					"category":"department",
+					"x":"0.5427",
+					"y":"0.8492"
+					
+				},
+				{
+					"id":"textile",
+					"title":"Textile engineering department",
+					"about":"",
+					"description":"The First Year classes of Textile Engineering started with the beginning of the academic session in February 1997. The decision to start the program was taken by the University after a four-year deliberation by various bodies of the University. The program has been designed to fulfill the engineering needs of the Textile Industry.",
+					"link":"https://txd.neduet.edu.pk/ ",
+					"image":"textile.png",
+					"category":"departmnet",
+					"x":"0.2992",
+					"y":"0.3242"
+					
+				},
+				{
+					"id":"Auto",
+					"title":"Automotive and Marine engineering department",
+					"about":"",
+					"description":" NED University in its continuous endeavor to enrich Pakistan with talented and able Engineers has now broadened its spectrum and is now offering Automotive & Marine Engineering discipline for which it has developed the Automotive Engineering Department. The Department of Automotive Engineering was established in the October 2005 and the academic session for the Bachelor of Engineering in Automotive started in January 2006 with the Initial intake of 35 students",
+					"link":"https://atd.neduet.edu.pk/ ",
+					"image":"automotive.png",
+					"category":"department",
+					"x":"0.3113",
+					"y":"0.3973"
+					
+				},
+				{
+					"id":"enviro",
+					"title":"Environmental engineering department",
+					"about":"",
+					"description":" Environmental Engineering is one of six departments in the Faculty of Chemical & Process Engineering (CPE) at NED University of Engineering and Technology. The Institute of Environmental Engineering & Research was established in 1985, at NED University as a Centre of Excellence for development of environmental engineering education and research. In 1997, the institute was later renamed as a department of this University. Our department works closely with industries, government and regulatory authorities, and focus particularly on environmental and societal impacts",
+					"link":"https://end.neduet.edu.pk/",
+					"image":"environemtal.png",
+					"category":"department",
+					"x":"0.1891",
+					"y":"0.4056"
+					
+				},
+				{
+					"id":"metallurgy",
+					"title":"Metallurgy engineering department",
+					"about":"",
+					"description":"Metallurgical Engineering Department To lead as country’s most productive institution in teaching, research and innovation while producing quality Metallurgical Engineers as per advanced market needs. Mission of Metallurgical Engineering Department.",
+					"link":"https://myd.neduet.edu.pk/ ",
+					"image":"metalurgical.jpg",
+					"category":"depaertment",
+					"x":"0.1965",
+					"y":"0.5714"
+				},
+				{
+					"id":"polymer",
+					"title":"Polymer and petrochemical engineering department",
+					"about":"",
+					"description":" The Department of Polymer and Petrochemical Engineering is established with the aim to meet the growing demands of competent professional in the well established and rapidly emergent sector of the Polymer & Petrochemical Sector in the Industry. It is the aim of the Department to produce highly skilled professional in the field of Polymer & Petrochemical Engineering. Polymer & Petrochemical Industry is fueling the world trade and economy.",
+					"link":"https://ppd.neduet.edu.pk/ ",
+					"image":"polymer.png",
+					"category":"department",
+					"x":"0.0475",
+					"y":"0.7701"
+				},
+				{
+					"id":"material",
+					"title":"Materials engineering department",
+					"about":"",
+					"description":"Materials engineering is a discipline which deals with production, processing, characterization, selection and design of a range of materials including metals and alloys, ceramics, semiconductors, polymers, glasses, composites, biomaterials and recently developed nano-materials.",
+					"link":"https://mmd.neduet.edu.pk/ ",
+					"image":"material.jpg",
+					"category":"departmnet",
+					"x":"",
+					"y":""
+				},
+				{
+					"id":"chemical",
+					"title":"Chemical engineering department",
+					"about":"",
+					"description":"The Department of Chemical Engineering at NED University, although, established recently, but with its track record of excellence in both teaching and research, now, being regarded as a leading Department of Chemical Engineering for our size in the country.",
+					"link":"https://dec.neduet.edu.pk/ ",
+					"image":"Chemical.png",
+					"category":"department",
+					"x":"0.0437",
+					"y":"0.7130"
+				},
+				{
+					"id":"human",
+					"title":"Humanities department",
+					"about":"",
+					"description":"To provide a broad-based education focusing on multidisciplinary approach to social sciences to prepare individuals interested in English Language and Linguistics for a variety of career paths. To equip students with a strong combination of theoretical and applied methods within the core and allied disciplines",
+					"link":"https://hsd.neduet.edu.pk/ ",
+					"image":"humanities.png",
+					"category":"department",
+					"x":"0.5420",
+					"y":"0.9621"
+				},
+				{
+					"id":"CSIT",
+					"title":"Department of CSIT ",
+					"about":"",
+					"description":"The Department of Computer Science and Information Technology is committed to maintain programmes of excellence in teaching, research, and service. Students are given the opportunity to obtain a well-founded understanding of the principles and theories of the science of computing and information technology. Our graduates are well perceived and sought after by the industry where they have been successful in securing suitable position",
+					"link":"https://cct.neduet.edu.pk/ ",
+					"image":"CSIT.png",
+					"category":"departmnet",
+					"x":"",
+					"y":""
+				},
+				{
+					"id":"mechanical",
+					"title":"Mechanical Labs",
+					"about":"",
+					"description":"Engineering Mechanics,Laboratory,Fluid Mechanics Laboratory,Heat Transfer Laboratory,Internal Combustion Engines Laboratory, Machine Dynamics & Design Laboratory,Material Testing & Electron Microscopy Laboratory,Materials & Metallurgy Laboratory,Vibration & Acoustic Laboratory,Gas Dynamics Laboratory,Steam Generation & Steam Turbines Laboratory",
+					"link":"",
+					"image":"",
+					"category":"LABS",
+					"x":"0.4085",
+					"y":"0.5093"
+				},
+				{
+					"id":"IMD",
+					"title":"INDUSTRIAL & MANUFACTURING ENG DEPT LABS",
+					"about":"",
+					"description":" CAD  ,Metrology & Gauging, Industrial Automation, CAED,  Manufacturing Engineering, CAM, Industrial Safety, Tool Design",
+					"link":"",
+					"image":"",
+					"category":"LABS",
+					"x":"",
+					"y":""
+				},
+				{
+					"id":"Civil",
+					"title":"LABS OF CIVIL ENG DEPT",
+					"about":"",
+					"description":"Hydraulics & Fluid Mechanics Laboratory ,  Soil Mechanics Laboratory, Geology Laboratory, Transportation Laboratory, Material Testing Laboratory, Concrete Laboratory,   Surveying Laboratory",
+					"link":"",
+					"image":"",
+					"category":"LABS",
+					"x":"0.6437",
+					"y":"0.5566"
+				},
+				{
+					"id":"software labs",
+					"title":"LABS OF SOFTWARE ENG DEPT",
+					"about":"",
+					"description":"Database Lab, General Purpose Computer Lab, Graphics Lab, Networks Lab, AI Lab, Project Lab",
+					"link":"",
+					"image":"",
+					"category":"LABS",
+					"x":"0.7141",
+					"y":"0.5121"
+				},
+				{
+					"id":"cis",
+					"title":"CIS LABS",
+					"about":"",
+					"description":"High Performance Computing Centre (HPCC),  Research Center For Artificial Intelligence (RCAI), National Center for Artificial Intelligence (NCAI), National Center of BigData and Cloud Computing (NCBC)",
+					"link":"",
+					"image":"",
+					"category":"LABS",
+					"x":"0.3483",
+					"y":"0.6084"
+				},
+				{
+					"id":"textile",
+					"title":"TEXTILE LABS ",
+					"about":"",
+					"description":"Computer Laboratory, Dyeing And Finishing Lab, Fabric Manufacturing Lab, Fabric Testing Lab",
+					"link":"",
+					"image":"",
+					"category":"LABS",
+					"x":"",
+					"y":""
+				},
+				{
+					"id":"National bank",
+					"title":"NBP BANK",
+					"about":"",
+					"description":"Branch Phone, Number:021-34974323 – 99243261-8 -99244315, Branch Address:NED Universithy, Campus,Karachi University, Rod.Kar.NBP Call Center: 021 111-627-627",
+					"link":"",
+					"image":"",
+					"category":"BANKS",
+					"x":"0.8687",
+					"y":"0.4843"
+				},
+				{
+					"id":"HBL",
+					"title":"HABIB METROPOLITAN BANK",
+					"about":"",
+					"description":"Address: C-15 University ,Rd, NED University Of Engineering & ,Technology, Karachi, Karachi City, Sindh,Hours: Closed ⋅ Opens 9AM Mon",
+					"link":"",
+					"image":"",
+					"category":"BANKS",
+					"x":"0.8983",
+					"y":"0.4214"
+				},
+				{
+					"id":"auditorium",
+					"title":"NED MAIN AUDITORIUM",
+					"about":"",
+					"description":"It is one of the biggest gathering indoor place in the university. It is also a biggest auditorium in the university there is another auditorium but Main auditorium is used for official gathering.",
+					"link":"",
+					"image":"auditorium.png",
+					"category":"auditorium",
+					"x":"0.4178",
+					"y":"0.6649"
+				},
+				{
+					"id":"auditorium",
+					"title":"CIVIL AV HALL",
+					"about":"",
+					"description":"Civil AV Hall is also an auditorium where is under the civil department. It used for function official gathering and other festival specially regarding to the civil department.",
+					"link":"",
+					"image":"CivilAV.jpg",
+					"category":"auditorium",
+					"x":"0.6455",
+					"y":"0.8093"
+				},
+				{
+					"id":"masjid",
+					"title":"NED Mosque INFORMATION",
+					"about":"",
+					"description":"This is one of the biggest mosque ever build in any university. Student, teacher people form staff colony, external people came here for praying, and fell relax to stay.",
+					"link":"",
+					"image":"",
+					"category":"MASJID",
+					"x":"0.1175",
+					"y":"0.7541"
+				},
+				{
+					"id":"SFC",
+					"title":"DEPARTMENT OF STUDENT AFFAIRS",
+					"about":"",
+					"description":"This department deal all the student affairs in the university. It deal student scholarship, student complain, student problem in the university, making shuttle coupon and all the necessary work regarding university.",
+					"link":"https://www.neduet.edu.pk/students_affairs",
+					"image":"SFC.jpg",
+					"category":"facilitation centre",
+					"x":"0.6130",
+					"y":"0.9666"
+				},
+				{
+					"id":"MEDICAL CENTRE",
+					"title":"MEDICAL CENTRE",
+					"about":"",
+					"description":"It is one of the first medical center in the university. It provide treatment in case of accidental case happen in the university. It conduct all kind of medical test at the time of the admission in the university.",
+					"link":"https://www.neduet.edu.pk/medical_department ",
+					"image":"medical.jpg",
+					"category":"facilitation centre",
+					"x":"0.4845",
+					"y":"0.9456"
+				},
+				{
+					"id":"facilitation centre",
+					"title":"ADMINISTRATIVE BLOCK",
+					"about":"",
+					"description":"It also called white house in the university. It manage all the official circumstance in the university. VC office, Dean’s office and all official offices situated in here",
+					"link":"https://www.neduet.edu.pk/administrative_departments ",
+					"image":"Admin.jpg",
+					"category":"facilitation centre",
+					"x":"0.2455",
+					"y":"0.9606"
+				},
+				{
+					"id":"HoSTELS",
+					"title":"HOSTELS",
+					"about":"",
+					"description":"It is first hostel in the university. It contain hundreds of room where thousands of student live. Come from all over the Pakistan. Each room shared by only three student, which contain essential furniture and necessary equipment.",
+					"link":"https://www.neduet.edu.pk/apply_online_for_hostel_accommodation ",
+					"image":"hostel.jpg",
+					"category":"facilitation centre",
+					"x":"0.0567",
+					"y":"0.5668"
+				},
+				{
+					"id":"BOYS COMMON ROOM",
+					"title":"BOYS COMMON ROOM",
+					"about":"",
+					"description":"It is also called BCR. It only for the boys where boys can easily spend their time to do some thing, to study or to rest for some time.",
+					"link":"",
+					"image":"BCR.jpg",
+					"category":"facilitation centre",
+					"x":"0.",
+					"y":""
+				},
+				{
+					"id":"GIRLS COMMON ROOM",
+					"title":"GIRLS COMMON ROOM",
+					"about":"",
+					"description":"It also called the GCR. It only for the girls where they can stay and spend their time, they feel free to do anything, they can study or they can rest also for some while. ",
+					"link":"",
+					"image":"GCR.jpg",
+					"category":"facilitation centre",
+					"x":"0.5326",
+					"y":"0.5297"
+				},
+				{
+					"id":"FOOD",
+					"title":"DMS",
+					"about":"",
+					"description":"It is the new canteen that have been develop in the recently year in the university. it is most beautiful canteen in the university which provide all the essential facility to the student. Student can take lunch; breakfast and can enjoy their refreshment. ",
+					"link":"",
+					"image":"BCR.jpg",
+					"category":"FOOD",
+					"x":"0.3798",
+					"y":"0.4149"
+				},
+				{
+					"id":"SFC",
+					"title":"SFC",
+					"about":"",
+					"description":"It is second largest canteen in the university this canteen has two parts. One for only girls and first girl canteen, another for boys and girls both. From there student can take refreshment, lunch, juice, tea etc.",
+					"link":"",
+					"image":"SFC.jpg",
+					"category":"FOOD",
+					"x":"0.6735",
+					"y":"0.9691"
+				},
+				{
+					"id":"ENVIRONMENTAL CANTEEN",
+					"title":"ENVIRONMENTAL CANTEEN",
+					"about":"",
+					"description":"It is one of the biggest canteen in the university. This canteen is open 7 days in a week and provide breakfast, lunch and dinner as well because it especially build for hostel students.",
+					"link":"",
+					"image":"",
+					"category":"FOOD",
+					"x":"0.0742",
+					"y":"0.6603"
+				},
+				{
+					"id":"SFC STATIONERY STORE",
+					"title":"SFC STATIONERY STORE",
+					"about":"",
+					"description":"It is one of the best stationary store in the university. In this store student can copy their documents, print out their reports, binding their project and take all kind of stationary from there. All type of form for scholarship or internship are available here so student can easily take advantages from this facility.",
+					"link":"",
+					"image":"",
+					"category":"Stationary store",
+					"x":"0.7285",
+					"y":"0.9676"
+				},
+				{
+					"id":"SOCCER ",
+					"title":"SOCCER FIELD",
+					"about":"",
+					"description":"Ned football field is beside the cricket ground. It most beautiful and very large to play an international standard match. It also has area for crowd who taking live view of the match.",
+					"link":"",
+					"image":"football.jpg",
+					"category":"sport",
+					"x":"0.5742",
+					"y":"0.2473"
+				},
+				{
+					"id":"TENNIS COURT ",
+					"title":"TENNIS COURT ",
+					"about":"",
+					"description":"NED Tennis court is inside the gymnasium. Inside in there is also a basketball court, volleyball court and many indoor games which entertain the students.",
+					"link":"",
+					"image":"",
+					"category":"sport",
+					"x":"0.4252",
+					"y":"0.2242"
+				},
+				{
+					"id":"CRICKET GROUND",
+					"title":"CRICKET GROUND",
+					"about":"",
+					"description":"Ned has its own cricket team and ground as well. This ground is fully functional and have all necessary requirement for playing an international standards match.",
+					"link":"",
+					"image":"cricket.jpg",
+					"category":"sport",
+					"x":"0.5233",
+					"y":"0.3621"
+				},
+				{
+					"id":"SQUASH COMPLEX",
+					"title":"SQUASH COMPLEX",
+					"about":"",
+					"description":"Squash complex is one of the most professional and beautiful complex in the university. it provide all the basic facility to the student so they can enjoy and play very well. ",
+					"link":"",
+					"image":"squash.jpg",
+					"category":"sport",
+					"x":"0.4530",
+					"y":"0.2862"
+				},
+				{
+					"id":"BOYS GYMNASIUM",
+					"title":"BOYS GYMNASIUM",
+					"about":"",
+					"description":"Boys Gymnasium is only for boys especially for student and teachers as well. It gymnasium you can play tennis, basket ball, indoor games and much more thing that you want.",
+					"link":"",
+					"image":"Boysgymnism.jpg",
+					"category":"sport",
+					"x":"0.3946",
+					"y":"0.2936"
+				},
+				{
+					"id":"GIRLS GYMNASIUM",
+					"title":"GIRLS GYMNASIUM",
+					"about":"",
+					"description":"Girl Gymnasium is only for Girls especially for student and teachers as well. It gymnasium you can play tennis, basket ball, indoor games and much more thing that you want.",
+					"link":"",
+					"image":"",
+					"category":"sport",
+					"x":"0.3955",
+					"y":"0.3418"
+				},
+				{
+					"id":"DEAN OFFICES",
+					"title":"DEAN OFFICES",
+					"description":"There are six in the university. Every dean control a couple of discipline, which are related to each other.",
+					"image":"Deanoffice.jpg",
+					"link":"https://www.neduet.edu.pk/dean_ish",
+					"category":"DEAN OFFICES",
+					"x":"0.3370",
+					"y":"0.9616"
+				},
+				{
+					"id":"Virtual",
+					"title":"VRC – VIRTUAL REALITY CENTRE",
+					"description":"The  NED  University of Engineering and Technology, Karachi  has  established  a  state-of-the  art facility  for  integrating virtual  reality  in  the  education, research  and practice.  The  facility  that  is  housed  at  the  Department of  Civil Engineering  is  named  as  “NED University  Virtual  Reality  Center”  is the  first  of  its  kind  in  the  entire region  (sub-continent).  The  facility houses three  major  system  including,  virtual  teaming  system, walking  VR systems,  and Projection  VR  system. The major objectives of VR Center is to gear up the performance delivery by being a capacity builder, solution provider and knowledge innovation hub.",
+					"image":"Virtual.jpg",
+					"link":"https://vrc.neduet.edu.pk/",
+					"category":"",
+					"x":"0.7131",
+					"y":"0.7871"
+				},
+				{
+					"id":"SHUTTLE SERVICES",
+					"title":"SHUTTLE SERVICES",
+					"description":"NED provide the shuttle services for more than 16 routes all over the cities. The shuttles services used by employs and the student who live far from the university. Shuttle services fee very portable and affordable by every person",
+					"image":"Shuttle.jpg",
+					"link":"https://www.neduet.edu.pk/sites/default/files/users/student_affairs/Shuttle_Route.pdf",
+					"category":"Shuttle services",
+					"x":"0.1145",
+					"y":"0.8661"
+				},
+				{
+					"id":"visitorgate",
+					"title":"VISITOR GATE",
+					"description":"NED University of ,Engineering & Technology, University, Road, Karachi - 75270, Pakistan, Telephone : (92-21) 99261261-8, Fax,(92-21) 99261255, Email : registrar@neduet.edu.pk ",
+					"image":"visitorgate.jpg",
+					"link":"",
+					"category":"others",
+					"x":"0.9345",
+					"y":"0.9081"
+				},
+				{
+					"id":"maingate",
+					"title":"MAIN GATE",
+					"description":"",
+					"image":"Maingate.jpg",
+					"link":"",
+					"category":"others",
+					"x":"0.9345",
+					"y":"0.9081"
+				},
+				{
+					"id":"LIBRARY",
+					"title":"ENGR. ABUL KALAM LIBRARY",
+					"description":"It gives me immense pleasure to welcome you all to Engr. Abul Kalam Library. The NED University is proud to possess a well-equipped and fully computerized library. It is the locus for imparting in depth and up to date knowledge in related technical and research fields. The Engr. Abul Kalam library devotes considerable efforts and resources to the development of a comfortable educational environment. It is deeply committed to its students and is pledged to excellence in education.",
+					"image":"libaray.png",
+					"link":"https://library.neduet.edu.pk/ ",
+					"category":"LIBRARY",
+					"x":"0.1974",
+					"y":"0.8362"
+				},
+                {
+					"id": "mechanical",
+					"title": "MECHANICAL ENGINEERING DEPT",
+					"about": "",
+					"description": "MED strives to attain an ideal balance between theoretical instruction and practical exposure to mechanical engineering with the help of qualified faculty and several well-equipped laboratories. Our flagship B.E. program is the starting point for careers in several disciplines. With an enrolment of over 800 students, this is one of the oldest and most valued mechanical engineering programs in the country.",
+					"style": "dark",
+					"link":"https://med.neduet.edu.pk/",
+					"image":"Mechanical.png",
+					"x": "0.4298",
+					"y": "0.7982"
+				}
+                             
+                
+                
+			]
+		}
+		
+					
+				
+			
+		
+	]
+}

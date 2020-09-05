@@ -1,0 +1,193 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    padding-top: 20px !important;
+    
+}
+.nav-item{
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+.nav-link{
+    color: #fff !important;
+    font-size: 17px !important;
+    padding: 0 15px 5px 0px !important;
+    display: unset !important;
+}
+
+.navbar-brand img{
+    width: 70px;
+    margin-bottom: 10px;
+
+  
+}
+.active-home{
+    border-bottom: 2px solid #fff;
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid #fff;
+}
+.titlebar{
+    background: #BCF1FA ;
+}
+.title{
+    text-align: center;
+}
+
+.maparea{
+    height: 700px;
+    width: 70%;
+    background-color:darkgray;
+    margin-left: 250px;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    overflow:scroll;
+    
+}
+.fullarea{
+    background:#EEEEE2  ;
+    height:780px;
+    width:100%;
+}
+.contactarea{
+    background: #fff;
+    height:500px;
+    width:50%;
+    margin-left: 150px;
+    border-radius: 50px;
+    
+    
+    
+}
+#newarea{
+    background:#32D7F1; 
+    height:600px;
+    width:100%;
+      
+}
+
+#fontnew{
+    font-family: 'Rock Salt', cursive;
+    font-variant: normal;
+    font-size: 40px;
+    color: blue;
+    text-align: center;
+}
+#fontnew1{
+   font-family: 'Aclonica', sans-serif;
+    font-size: 30px;
+    color:chocolate;
+    text-align: center;
+}
+#fontnew2{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    color:crimson;
+    text-align: center;
+    text-decoration: none;
+}
+#btn{
+    
+    margin-left: 250px;
+    padding: 32px 16px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    border-radius: 12px;
+    transition-duration:0.4s;   
+}
+#btn:hover{
+    background-color:lightblue;
+}
+.footer{
+     background:#6B6A5F; 
+    height:230px;
+    width:100%;
+}
+#foot1{
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+    color:white;
+    text-align: center;
+}
+#foot2{
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+    color:white;
+    text-align: center;
+}
+#foot3{
+     font-size: 20px;
+    color:white;
+    text-align: center;
+}
+#headerfont{
+    font-family: 'Gilda Display', serif;
+     font-size: 50px;
+    color:brown;
+    text-align: center;
+}
+
+.teamarea{
+     background:#666661; 
+    height:400px;
+    width:100%;
+}
+#teamtext{
+     font-family: 'Rock Salt', cursive;
+     font-size: 40px;
+    color:white;
+    text-align: center;
+}
+#teamtext2{
+    font-family: 'Red Rose', cursive;
+      font-size: 20px;
+    color:white;
+    text-align: center;
+
+}
+#teamtext3{
+    font-family: 'Libre Baskerville', serif;
+     font-size: 20px;
+    color:white;
+    text-align: center;
+}
+#maptext{
+     font-family: 'Rock Salt', cursive;
+     font-size: 40px;
+    color:black;
+    text-align:right;
+}
+#maptext2{
+    font-family: 'Rock Salt', cursive;
+     font-size: 10px;
+    color:black;
+    text-align:right;
+}
+/*.aboutned{
+    background: url(ourproj.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+
+.header{
+   background: #44ca44; 
+   @navbar-height:50px;
+   
+}
+
+
+  
+
+
+
+
